@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Institucional SENAI</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        /* Menu superior */
+        .menu_top {
+            background-color: #004080;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu_top a {
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #004080;
+            margin-top: 0;
+        }
+
+        .cursos {
+            background-color: #eeeeee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .cursos p {
+            background-color: #dddddd;
+            margin: 8px 0;
+            padding: 8px 12px;
+            border-radius: 3px;
+        }
+
+        .contato p {
+            margin: 5px 0;
+        }
+
+        .contato .icon {
+            margin-right: 8px;
+        }
+
+        .rodape {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu -->
+    <div class="menu_top">
+        <strong>SENAI</strong>
+        <div>
+            <a href="#sobre">Sobre</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <!-- Sobre -->
+        <section id="sobre">
+            <h2>Sobre o SENAI</h2>
+            <p>O SENAI é uma das principais instituições de educação profissional do Brasil. Nossa missão é preparar os jovens e trabalhadores para o mercado de trabalho com foco em inovação, tecnologia e indústria 4.0.</p>
+        </section>
+
+        <!-- Cursos -->
+        <section id="cursos">
+            <h2>Cursos Técnicos</h2>
+            <div class="cursos">
+                <p>Técnico em Desenvolvimento de Sistemas</p>
+                <p>Técnico em Mecatrônica</p>
+                <p>Técnico em Eletrotécnica</p>
+                <p>Técnico em Logística</p>
+                <p>Técnico em Administração</p>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <p><img src = "Imagens/pin.png" height="15" width="15">Unidade SENAI Central - Rua da Indústria, 123, Centro</p>
+            <p><img src = "Imagens/telefone.png"height="15" width="15">(11) 4002-8922</p>
+            <p><img src = "Imagens/email.png"height="15" width="15">atendimento@senai.br.com</p>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        © 2025 SENAI - Serviço Nacional de Aprendizagem Industrial
+    </footer>
+
+</body>
+</html>
